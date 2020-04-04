@@ -1,0 +1,8 @@
+#robots{
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    grid-gap: 3rem;
+    padding: 3rem 0;
+}

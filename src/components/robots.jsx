@@ -2,13 +2,12 @@ import React from 'react';
 
 import Robot from "./robot";
 
-import RobotsList from "../util/robots-data";
+import "../scss/robots.scss";
 
-
-const Robots = () => {
+const Robots = (props) => {
     return ( 
-        <div>
-            {RobotsList.map((item, index) => (
+        <div id="robots">
+            {props.robots.map((item, index) => (
                 <Robot robot={item} key={index} index={index}/>
             ))}
         </div>
