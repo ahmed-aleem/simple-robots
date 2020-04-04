@@ -16,7 +16,7 @@ const App = () => {
     setText(e.target.value);
 
     const newRobots = robots.filter(
-        (robot, index) => (robot.name.toLowerCase().includes(e.target.value))
+        (robot, index) => (robot.name.toUpperCase().includes(e.target.value.toUpperCase()))
       );
     e.target.value !== "" ? setRobots(newRobots) : setRobots(RobotsList);
   }
