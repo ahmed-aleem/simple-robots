@@ -1,9 +1,9 @@
 {
   "name": "simple-robots",
   "version": "0.1.0",
-"description": "A simple application coded in ReactJS with best practices",
+  "description": "A simple application coded in ReactJS with best practices",
   "private": true,
-"main": "index.js",
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -12,7 +12,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
   },
-"repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ahmedatmontaigne/simple-robots.git"
   },
@@ -37,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-"keywords": [
+  "keywords": [
     "Simple",
     "Robots"
   ],
